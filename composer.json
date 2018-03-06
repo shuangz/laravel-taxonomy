@@ -1,0 +1,11 @@
+{
+    "name": "shuangz/laravel-taxonomy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lsz",
+            "email": "likeshuangz@gmail.com"
+        }
+    ],
+    "require": {}
+}
