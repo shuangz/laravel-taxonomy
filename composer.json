@@ -1,11 +1,25 @@
 {
     "name": "shuangz/laravel-taxonomy",
+    "description": "Laravel Model Taxonomy",
     "license": "MIT",
+    "type": "library",
+    "keywords": ["laravel", "taxonomy"],
     "authors": [
         {
-            "name": "lsz",
+            "name": "shuangz",
             "email": "likeshuangz@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+    	"illuminate/database": "~5.5",
+    	"baum/baum": "~1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+           "Shuangz\\Taxonomy\\": "src/"
+        }
+    }
 }
