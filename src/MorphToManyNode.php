@@ -27,7 +27,7 @@ trait MorphToManyNode
 
     public function FunctionName($taxonomy, $value)
     {
-    	Taxonomy::where()->Element::where('name', $value)
+    	Taxonomy::where()->Element::where('name', $value);
     	$this->nodes()->attach('id');
     }
 
@@ -48,5 +48,5 @@ trait MorphToManyNode
         //以下是另外一个思路
         //
         $query = Node::query();
-
+    }
 }

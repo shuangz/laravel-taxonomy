@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-    	"illuminate/database": "~5.5",
+    	"illuminate/database": "~5",
     	"baum/baum": "~1.1"
     },
     "require-dev": {
